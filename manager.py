@@ -28,25 +28,25 @@ def is_valid_account_email(email):
 def save_account():
     global data
 
-    website = simpledialog.askstring('Message', 'Enter website:')
+    website = simpledialog.askstring('Website', 'Enter website:')
     if website is None:
         return
     elif not is_valid_account_website(website):
         messagebox.showerror('Message', 'Invalid or unsupported website domain.')
         return
     
-    email = simpledialog.askstring('Message', 'Enter email:')
+    email = simpledialog.askstring('Email', 'Enter email:')
     if email is None:
         return
     elif not is_valid_account_email(email):
         messagebox.showerror('Message', 'Invalid or unsupported email domain.')
         return
     
-    username = simpledialog.askstring('Message', 'Enter username:')
+    username = simpledialog.askstring('Username', 'Enter username:')
     if username is None:
-        username = 'No Username'
+        return
 
-    password = simpledialog.askstring('Message', 'Enter password:')
+    password = simpledialog.askstring('Password', 'Enter password:')
     if password is None:
         return
     
