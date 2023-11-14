@@ -27,6 +27,7 @@ The project icon above taken from https://www.flaticon.com
 - Unhandled exceptions.
 - Lack of access protection mechanism.
 - Lack of session management.
+- Simple password hashing.
 
 ## Discord
 
