@@ -1,17 +1,15 @@
 # Not encrypted password manager by @intosins
 
 import os
-
 import hashlib
-
 import json
-
 import pyperclip
-
 from tkinter import *
 from tkinter import messagebox, simpledialog
 
 data = {}
+
+print('Made by @intosins')
 
 def is_valid_account_website(website):
     valid_domains = ['.com', '.net', '.xyz', '.vip', '.lol', '.org', '.cn', '.de', '.ru', '.рф', '.ua', '.ukr', '.nl', '.store', '.uk', '.br', '.io', '.us']
