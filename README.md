@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python-blue)
 
-Not encrypted password manager is a Python-based tool designed for saving your passwords, emails and usernames with application into editable file without extension with small amount of encryption.
+Not encrypted password manager is a Python-based tool designed for saving your passwords, emails and usernames with application into editable file without extension and small amount of encryption.
 
 The project icon above taken from https://www.flaticon.com and edited.
 
